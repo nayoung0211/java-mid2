@@ -11,6 +11,6 @@ public class BoxMian1 {
         stringBox.set("test");
         String string = stringBox.get();
         System.out.println("String Box = "+string);
-    }
 
+    }
 }

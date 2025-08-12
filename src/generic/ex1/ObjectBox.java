@@ -10,5 +10,4 @@ public class ObjectBox {
     public Object get() {
         return value;
     }
-
 }
