@@ -20,3 +20,4 @@ public class AnimalHospitalV3<T extends Animal> {
        return animal.getSize() > target.getSize() ? animal : target;
     }
 }
+
