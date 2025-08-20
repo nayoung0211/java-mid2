@@ -15,6 +15,8 @@ public class ArrayToMapTest {
             productMap.put(key, Integer.valueOf(value));
         }
         //데이터 출력
-
+        for (String s : productMap.keySet()) {
+            System.out.println(s + " : " + productMap.get(s));
+        }
     }
 }
