@@ -17,7 +17,6 @@ public class JavaSetMain {
         run(new HashSet<>());//순서 무작위
         run(new LinkedHashSet<>());//넣은 순서대로 보여짐
         run(new TreeSet<>());//데이터의 순서로 보여짐
-
     }
 
     private static void run(Set<String> set){
