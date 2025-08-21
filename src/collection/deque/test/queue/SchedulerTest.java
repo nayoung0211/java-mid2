@@ -17,5 +17,4 @@ public class SchedulerTest {
             scheduler.processNextTask();
         }
     }
-
 }
