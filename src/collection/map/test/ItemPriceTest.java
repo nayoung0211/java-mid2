@@ -2,8 +2,10 @@ package collection.map.test;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class ItemPriceTest {
 
@@ -14,7 +16,7 @@ public class ItemPriceTest {
         map.put("orange",1000);
         map.put("watermelon",1000);
 
-       List<String> list = new ArrayList<>();
+       Set<String> list = new HashSet<>();
        for(Map.Entry<String, Integer> entry : map.entrySet()) {
            if(entry.getValue().equals(1000)) {
                list.add(entry.getKey());
