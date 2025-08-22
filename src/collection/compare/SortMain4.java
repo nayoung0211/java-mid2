@@ -1,5 +1,6 @@
 package collection.compare;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -21,7 +22,8 @@ public class SortMain4 {
         System.out.println(list);
 
         System.out.println("IdComparator 정렬");
-        list.sort(new IdComparator());
+        //list.sort(new IdComparator());
+        Collections.sort(list,new IdComparator());
         System.out.println(list);
     }
 }
